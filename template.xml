@@ -1,64 +1,64 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>vm_custom_icons</Name>
-  <Repository>spaceinvaderone/vm_custom_icons</Repository>
-  <Registry>https://hub.docker.com/r/spaceinvaderone/vm_custom_icons</Registry>
+  <Repository>sfunction/unraid_vm_icons</Repository>
+  <Registry>https://hub.docker.com/r/sfunction/unraid_vm_icons</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
   <Support/>
-  <Project>https://github.com/SpaceinvaderOne/unraid_vm_icons</Project>
-  <Overview>Downloads and installs additional custom VM icons to the Unraid VM Manager.&#xD;
+  <Project>https://github.com/qingkong9579/unraid_vm_icons</Project>
+  <Overview>下载并安装额外的自定义VM图标到Unraid VM管理器。&#xD;
 &#xD;
-After install Container should be set to auto start.&#xD;
+安装后容器应设置为自动启动。&#xD;
 &#xD;
-Usage&#xD;
+使用说明&#xD;
 &#xD;
-Basic settings&#xD;
-1. Choose which custom icons you want to be installed from the drop downs.&#xD;
-2. Choose wether you want to keep the existing stock vm icons (recommended to keep)&#xD;
-3. Set wether all icons are redownloaded when container starts.&#xD;
-    Setting this as yes will clear all vm icons then redownload all choosen icons from github repo. &#xD;
-    Setting to yes will on every start download any new icons in selected sections.&#xD;
-    (This is also useful if you deceide you no longer want a choosen section of icons anymore)&#xD;
-4. If your server has a beep speaker you can enable a tune to be played each time icons are synced!&#xD;
+基本设置&#xD;
+1. 从下拉菜单中选择要安装的自定义图标。&#xD;
+2. 选择是否保留现有的原版VM图标（推荐保留）&#xD;
+3. 设置是否在容器启动时重新下载所有图标。&#xD;
+    设为"是"将清除所有VM图标，然后从GitHub仓库重新下载所选图标。&#xD;
+    设为"是"将在每次启动时下载所选部分的新图标。&#xD;
+    （如果您决定不再需要某个选定的图标部分，这也很有用）&#xD;
+4. 如果您的服务器有蜂鸣器扬声器，可以启用每次同步图标时播放音调！&#xD;
 &#xD;
-Advanced settings (under show more settings)&#xD;
-1. You can set how long the container should wait before exiting after syncing icons (default 30 seconds)&#xD;
-Other options dont change&#xD;
+高级设置（在显示更多设置下）&#xD;
+1. 您可以设置容器在同步图标后等待多长时间退出（默认30秒）&#xD;
+其他选项不要更改&#xD;
 &#xD;
 &#xD;
 &#xD;
 </Overview>
   <Category>Tools:</Category>
-  <WebUI>https://github.com/SpaceinvaderOne/unraid_vm_icons</WebUI>
+  <WebUI>https://github.com/qingkong9579/unraid_vm_icons</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/SpaceinvaderOne/unraid_vm_icons/master/icons/Stock_Icons/default.png</Icon>
+  <Icon>https://raw.githubusercontent.com/qingkong9579/unraid_vm_icons/master/icons/Stock_Icons/default.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1605521571</DateInstalled>
-  <DonateText>If you like my work then please buy me a beer! :)</DonateText>
-  <DonateLink>https://www.paypal.com/paypalme/spaceinvader</DonateLink>
-  <Description>Downloads and installs additional custom VM icons to the Unraid VM Manager.&#xD;
+  <!-- <DonateText>If you like my work then please buy me a beer! :)</DonateText>
+  <DonateLink>https://www.paypal.com/paypalme/spaceinvader</DonateLink> -->
+  <Description>下载并安装额外的自定义VM图标到Unraid VM管理器。&#xD;
 &#xD;
-After install Container should be set to auto start.&#xD;
+安装后容器应设置为自动启动。&#xD;
 &#xD;
-Usage&#xD;
+使用说明&#xD;
 &#xD;
-Basic settings&#xD;
-1. Choose which custom icons you want to be installed from the drop downs.&#xD;
-2. Choose wether you want to keep the existing stock vm icons (recommended to keep)&#xD;
-3. Set wether all icons are redownloaded when container starts.&#xD;
-    Setting this as yes will clear all vm icons then redownload all choosen icons from github repo. &#xD;
-    Setting to yes will on every start download any new icons in selected sections.&#xD;
-    (This is also useful if you deceide you no longer want a choosen section of icons anymore)&#xD;
-4. If your server has a beep speaker you can enable a tune to be played each time icons are synced!&#xD;
+基本设置&#xD;
+1. 从下拉菜单中选择要安装的自定义图标。&#xD;
+2. 选择是否保留现有的原版VM图标（推荐保留）&#xD;
+3. 设置是否在容器启动时重新下载所有图标。&#xD;
+    设为"是"将清除所有VM图标，然后从GitHub仓库重新下载所选图标。&#xD;
+    设为"是"将在每次启动时下载所选部分的新图标。&#xD;
+    （如果您决定不再需要某个选定的图标部分，这也很有用）&#xD;
+4. 如果您的服务器有蜂鸣器扬声器，可以启用每次同步图标时播放音调！&#xD;
 &#xD;
-Advanced settings (under show more settings)&#xD;
-1. You can set how long the container should wait before exiting after syncing icons (default 30 seconds)&#xD;
-Other options dont change&#xD;
+高级设置（在显示更多设置下）&#xD;
+1. 您可以设置容器在同步图标后等待多长时间退出（默认30秒）&#xD;
+其他选项不要更改&#xD;
 &#xD;
 &#xD;
 &#xD;
@@ -127,16 +127,16 @@ Other options dont change&#xD;
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="windows icons" Target="windows" Default="yes|no" Mode="" Description="select yes or no to download windows vm icons" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="linux icons" Target="linux" Default="yes|no" Mode="" Description="select yes or no to download linux vm icons" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="freebsd icons" Target="freebsd" Default="yes|no" Mode="" Description="select yes or no to download freebsd vm icons" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="macos vm icons" Target="macos" Default="yes|no" Mode="" Description="select yes or no to download macos vm icons" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="other os  icons" Target="other" Default="yes|no" Mode="" Description="select yes or no to download other vm icons" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="Keep Stock VM Icons" Target="stock" Default="yes|no" Mode="" Description="set to no to remove stock unraid vm icons" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="Clear all icons &amp;amp; redownload above on each start" Target="delete" Default="no|yes" Mode="" Description="set to yes to delete all vm icons. and redownload the above from github on every run of container " Type="Variable" Display="always" Required="false" Mask="false">no</Config>
-  <Config Name="Enable sucess tune on icon load" Target="tune" Default="no|yes" Mode="" Description="Enable tune on sucess. (you must have a beep speaker)" Type="Variable" Display="always" Required="false" Mask="false">no</Config>
-  <Config Name="Time to wait before exit" Target="sleeptimehuman" Default="30 seconds|1 minute|2 minutes|5 minutes|10 minutes" Mode="" Description="Time to wait before stopping container after syncing icons " Type="Variable" Display="advanced" Required="false" Mask="false">30 seconds</Config>
-  <Config Name="vm manager icon location" Target="/unraid_vm_icons" Default="" Mode="rw" Description="location on server where Unraid stores vm icons (dont change this)" Type="Path" Display="advanced" Required="false" Mask="false">/usr/local/emhttp/plugins/dynamix.vm.manager/templates/images</Config>
-  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="appdata" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/vm_custom_icons</Config>
-  <Config Name="beep speaker" Target="" Default="" Mode="" Description="Container Device: " Type="Device" Display="advanced" Required="false" Mask="false">/dev/tty0</Config>
+  <Config Name="Windows图标" Target="windows" Default="yes|no" Mode="" Description="选择是否下载Windows VM图标" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="Linux图标" Target="linux" Default="yes|no" Mode="" Description="选择是否下载Linux VM图标" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="FreeBSD图标" Target="freebsd" Default="yes|no" Mode="" Description="选择是否下载FreeBSD VM图标" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="macOS VM图标" Target="macos" Default="yes|no" Mode="" Description="选择是否下载macOS VM图标" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="其他操作系统图标" Target="other" Default="yes|no" Mode="" Description="选择是否下载其他VM图标" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="保留原版VM图标" Target="stock" Default="yes|no" Mode="" Description="设为否将移除Unraid原版VM图标" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
+  <Config Name="每次启动时清除所有图标并重新下载" Target="delete" Default="no|yes" Mode="" Description="设为是将删除所有VM图标，并在每次运行容器时从GitHub重新下载上述图标" Type="Variable" Display="always" Required="false" Mask="false">no</Config>
+  <Config Name="图标加载成功时启用音调" Target="tune" Default="no|yes" Mode="" Description="成功时启用音调。（您必须有蜂鸣器扬声器）" Type="Variable" Display="always" Required="false" Mask="false">no</Config>
+  <Config Name="退出前等待时间" Target="sleeptimehuman" Default="30 seconds|1 minute|2 minutes|5 minutes|10 minutes" Mode="" Description="同步图标后停止容器前的等待时间" Type="Variable" Display="advanced" Required="false" Mask="false">30 seconds</Config>
+  <Config Name="VM管理器图标位置" Target="/unraid_vm_icons" Default="" Mode="rw" Description="服务器上Unraid存储VM图标的位置（不要更改）" Type="Path" Display="advanced" Required="false" Mask="false">/usr/local/emhttp/plugins/dynamix.vm.manager/templates/images</Config>
+  <Config Name="应用数据" Target="/config" Default="" Mode="rw" Description="应用数据" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/vm_custom_icons</Config>
+  <Config Name="蜂鸣器扬声器" Target="" Default="" Mode="" Description="容器设备：" Type="Device" Display="advanced" Required="false" Mask="false">/dev/tty0</Config>
 </Container>
